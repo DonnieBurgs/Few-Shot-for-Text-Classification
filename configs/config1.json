@@ -1,0 +1,18 @@
+{
+  "epoch": 2,
+  "batch_size": 32,
+  "max_len": 512,
+  "diff_decay": true,
+  "drop_punct": true,
+  "dropout": 0.1,
+  "lr": 2e-5,
+  "lsr_loss": false,
+  "freeze_bert": true,
+  "use_bigru": false,
+  "only_train": false,
+  "continue_train": false,
+  "output_hidden_states": false,
+  "concat_output": false,
+  "finetune_dir": "/home/ai/yangwei/wuhan_competition/sentiment_analysis/v1/checkpoints/output",
+  "init_checkpoint": "/home/ai/yangwei/wuhan_competition/sentiment_analysis/v1/checkpoints/roBERTa/"
+}
